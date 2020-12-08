@@ -8,8 +8,15 @@ echo "---> Enabling s2i support in httpd24 image"
 
 config_s2i
 
-echo "---> Installing application source"
-cp -af /tmp/src/. ./
+
+echo "---> Installing application source CUSTOMMMM"
+
+cp -Rf /home/student/s2itemp/test/*.html ./
+
+DATE = 'date'
+
+echo "Created on ${DATE}" >> info.html
+
 
 # Fix source directory permissions
 fix-permissions ./
