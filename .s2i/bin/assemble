@@ -12,7 +12,7 @@ config_s2i
 
 echo "---> Installing application source CUSTOMMMM"
 
-cp -Rf /home/student/s2itemp/test/*.html ./
+cp -Rf /tmp/src/*.html ./
 
 DATE = 'date'
 
