@@ -59,11 +59,8 @@ metadata:
     manager: cluster-samples-operator
     operation: Update
     time: "2020-08-20T18:37:22Z"
-  name: cakephp-mysql-example
-  namespace: openshift
-  resourceVersion: "14658"
-  selfLink: /apis/template.openshift.io/v1/namespaces/openshift/templates/cakephp-mysql-example
-  uid: baa32670-5cf5-40d7-80d9-d87448a64aaf
+  name: cakephp-mysql-example  
+  resourceVersion: "14658"    
 objects:
 - apiVersion: v1
   kind: Secret
