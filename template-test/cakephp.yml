@@ -29,6 +29,7 @@ metadata:
   creationTimestamp: "2020-08-20T18:37:22Z"
   labels:
     samples.operator.openshift.io/managed: "true"
+    template: "php-app"
   managedFields:
   - apiVersion: template.openshift.io/v1
     fieldsType: FieldsV1
