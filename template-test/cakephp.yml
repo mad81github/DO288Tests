@@ -400,3 +400,7 @@ parameters:
 - description: The custom Composer mirror URL
   displayName: Custom Composer Mirror URL
   name: COMPOSER_MIRROR
+- displayName: Database Service Name
+  name: MESSAGE_AUDIENCE
+  required: true
+ 
