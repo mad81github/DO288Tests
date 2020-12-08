@@ -5,7 +5,6 @@ labels:
   template: mycakephp-mysql-example
 message: |-
   The following service(s) have been created in your project: ${NAME}, ${DATABASE_SERVICE_NAME}.
-
   For more information about using this template, including OpenShift considerations, see https://github.com/sclorg/cakephp-ex/blob/master/README.md.
 metadata:
   annotations:
@@ -28,39 +27,8 @@ metadata:
     template.openshift.io/bindable: "false"
   creationTimestamp: "2020-08-20T18:37:22Z"
   labels:
-    samples.operator.openshift.io/managed: "true"
-    template: "php-app"
-  managedFields:
-  - apiVersion: template.openshift.io/v1
-    fieldsType: FieldsV1
-    fieldsV1:
-      f:labels:
-        .: {}
-        f:app: {}
-        f:template: {}
-      f:message: {}
-      f:metadata:
-        f:annotations:
-          .: {}
-          f:description: {}
-          f:iconClass: {}
-          f:openshift.io/display-name: {}
-          f:openshift.io/documentation-url: {}
-          f:openshift.io/long-description: {}
-          f:openshift.io/provider-display-name: {}
-          f:openshift.io/support-url: {}
-          f:samples.operator.openshift.io/version: {}
-          f:tags: {}
-          f:template.openshift.io/bindable: {}
-        f:labels:
-          .: {}
-          f:samples.operator.openshift.io/managed: {}
-      f:objects: {}
-      f:parameters: {}
-    manager: cluster-samples-operator
-    operation: Update
-    time: "2020-08-20T18:37:22Z"
-  name: cakephp-mysql-example  
+    samples.operator.openshift.io/managed: "true"     
+  name: mycakephp-mysql-example  
   resourceVersion: "14658"    
 objects:
 - apiVersion: v1
